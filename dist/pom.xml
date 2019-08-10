@@ -4,11 +4,37 @@
     <artifactId>dist</artifactId>
     <version>2.0.3</version>
     <packaging>jar</packaging>
+
     <parent>
         <groupId>net.skaiacraft</groupId>
         <artifactId>parent</artifactId>
         <version>2.0.3</version>
     </parent>
+
+    <dependencies>
+
+        <!-- Plugin core -->
+        <dependency>
+            <groupId>net.skaiacraft</groupId>
+            <artifactId>core</artifactId>
+            <version>2.0.3</version>
+        </dependency>
+
+        <!-- 1.12.2 implementation -->
+        <dependency>
+            <groupId>net.skaiacraft</groupId>
+            <artifactId>v1_12_R1</artifactId>
+            <version>2.0.3</version>
+        </dependency>
+
+        <!-- 1.14.2 implementation -->
+        <dependency>
+            <groupId>net.skaiacraft</groupId>
+            <artifactId>v1_14_R1</artifactId>
+            <version>2.0.3</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <directory>../target</directory>
         <finalName>MavenModules-2.0.3</finalName>
@@ -45,21 +71,4 @@
             </plugin>
         </plugins>
     </build>
-    <dependencies>
-        <dependency>
-            <groupId>net.skaiacraft</groupId>
-            <artifactId>core</artifactId>
-            <version>2.0.3</version>
-        </dependency>
-        <dependency>
-            <groupId>net.skaiacraft</groupId>
-            <artifactId>v1_12_R1</artifactId>
-            <version>2.0.3</version>
-        </dependency>
-        <dependency>
-            <groupId>net.skaiacraft</groupId>
-            <artifactId>v1_14_R1</artifactId>
-            <version>2.0.3</version>
-        </dependency>
-    </dependencies>
 </project>

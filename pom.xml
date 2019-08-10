@@ -8,11 +8,12 @@
     <name>MavenModules</name>
     <url>https://dre2n.github.io</url>
     <description>Library to modify some ItemStack traits that Bukkit doesn't support</description>
+
     <modules>
-        <module>core</module>
-        <module>v1_12_R1</module>
-        <module>v1_14_R1</module>
-        <module>dist</module>
+        <module>core</module>     <!--      Plugin core      -->
+        <module>v1_12_R1</module> <!-- 1.12.2 implementation -->
+        <module>v1_14_R1</module> <!-- 1.14.2 implementation -->
+        <module>dist</module>     <!--  Distribution module  -->
     </modules>
 
 </project>

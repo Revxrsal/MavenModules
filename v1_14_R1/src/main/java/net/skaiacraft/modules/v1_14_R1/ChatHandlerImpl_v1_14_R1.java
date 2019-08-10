@@ -15,6 +15,9 @@ package net.skaiacraft.modules.v1_14_R1;
 import net.skaiacraft.modules.ChatHandler;
 import org.bukkit.command.ConsoleCommandSender;
 
+/**
+ * 1.14.2 implementation
+ */
 public class ChatHandlerImpl_v1_14_R1 implements ChatHandler {
 
     /**

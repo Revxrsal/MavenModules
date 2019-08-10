@@ -6,7 +6,9 @@
     <content url="file://$MODULE_DIR$/../core/src/main/resources">
       <sourceFolder url="file://$MODULE_DIR$/../core/src/main/resources" type="java-resource" />
     </content>
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="core" />
